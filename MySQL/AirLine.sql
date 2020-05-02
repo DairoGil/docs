@@ -21,7 +21,7 @@ CREATE TABLE passenger (
     namep  varchar(50) not null, 
     birthdate date not null,
     email varchar(50) not null,
-    telephone int
+    telephone varchar(50)
 ); 
 
 CREATE TABLE passengerList (
